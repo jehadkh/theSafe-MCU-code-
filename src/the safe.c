@@ -28,11 +28,12 @@ char arr[4];
 int main(void)
 {
 	//SET_BIT(PORTC,4);
-	
+	//initialize UART 
 	UART_Init(9600);
 	char value;
 	//this flag will be used to check if user entered right pass correctly
 	char flag=0;
+	//this var will be used for forLoop counter
 	unsigned char i=0;
 	char tries=MAX_TRIES;
 	LCD_vInit();
