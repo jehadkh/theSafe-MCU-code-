@@ -27,7 +27,6 @@ char arr[4];
 
 int main(void)
 {
-	//SET_BIT(PORTC,4);
 	//initialize UART 
 	UART_Init(9600);
 	char value;
